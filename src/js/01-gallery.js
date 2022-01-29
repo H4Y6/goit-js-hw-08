@@ -17,6 +17,9 @@ const lightbox = new SimpleLightbox('.gallery a', {
   captionType: 'alt',
   captionPosition: 'bottom',
   captionDelay: 250,
+  overlayOpacity: .5,
+  enableKeyboard: true,
+  navText: ['←','→'],
 });
 
 function composeMarkup(galleryItems) {
